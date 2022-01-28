@@ -21,11 +21,12 @@ switch = False
 while switch == False:
     user_selection = input("Please enter 'Rock', 'Paper', or 'Scissors'. \n ")
 
-    user_selection.lower()
+    user_selection = user_selection.lower()
 
     # Input Validation section
     if user_selection == "rock" or user_selection == "paper" or user_selection == "scissors":
         switch = True
+        print("You chose " + user_selection + ".")
     else:
         print("Please enter 'rock', 'paper', or 'scissors' and make sure that it is correctly spelled.")
 
