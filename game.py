@@ -13,20 +13,22 @@
 # Welcome message and setup section
 import random
 
-print("Welcome to the Rock, Paper, Scissors Game!")
+print("Welcome to the Rock, Paper, Scissors Game!\n")
+print("-----------------\n")
 
 # User input section
 switch = False
 
 while switch == False:
-    user_selection = input("Please enter 'Rock', 'Paper', or 'Scissors'. \n ")
+    user_selection = input("Please enter 'Rock', 'Paper', or 'Scissors'.\n")
 
     user_selection = user_selection.lower()
 
     # Input Validation section
     if user_selection == "rock" or user_selection == "paper" or user_selection == "scissors":
         switch = True
-        print("You chose " + user_selection + ".")
+        print("You chose " + user_selection + ".\n")
+        print("-----------------\n")
     else:
         print("Please enter 'rock', 'paper', or 'scissors' and make sure that it is correctly spelled.")
 
@@ -70,8 +72,11 @@ elif outcome == 2:
     elif user_selection == "scissors":
         print("The computer chose rock.  You lose.")
 
+print("\n")
+print("-----------------\n")
 
 # goodbye message
-print("Thank you for playing.  Please play again!")
+print("Thank you for playing.  Please play again!\n")
+
 
 
