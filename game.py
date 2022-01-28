@@ -34,7 +34,7 @@ while switch == False:
 selection_options = ['rock','paper','scissors']
 computer_choice = random.choice(selection_options)
 
-
+# outcome determination
 # no winner is 0, user win is 1, computer win is 2
 if user_selection == computer_choice:
     outcome = 0
@@ -52,7 +52,7 @@ elif user_selection == "scissors" and computer_choice == "paper":
     outcome = 1
 
 
-# outcome determination
+# outcome output to interface
 if outcome == 0:
     print("The computer chose " + user_selection + " too!  There is no winner.")
 elif outcome == 1:
