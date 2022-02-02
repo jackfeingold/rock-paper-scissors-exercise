@@ -29,6 +29,12 @@ Run the rock paper scissors game:
 ```sh
 python game.py
 ```
+The game will ask that you input "Rock" "Paper" or "Scissors".  
+It does not matter if it is capitalized or not, only that it is spelled correctly.
+
+If you do not enter any of the three, the game will give you an error message and ask you to try again.
+
+When the game is over, the program will terminate.  To play again, enter the above command in Terminal.
 
 ## Testing
 
